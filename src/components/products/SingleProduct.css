@@ -1,0 +1,53 @@
+.pdct {
+	border: 2px solid #4e5d6c;
+	width: 60% !important;
+	margin-top: 1rem;
+	margin-left: 1rem !important;
+	box-shadow: 2px 2px 2px 2px #4e5d6c;
+	font-size: 14px;
+}
+.pdct hr {
+	border-color: #4e5d6c;
+}
+.quantity-btn {
+	width: 40px !important;
+}
+.thumbnails img {
+	width: 70px;
+	height: 70px;
+}
+.selected {
+	border: 1px solid #ffff00;
+}
+.displayed-img {
+	margin-left: 1.6rem;
+}
+.displayed-img img {
+	width: 200px;
+	height: 200px;
+}
+
+@media screen and (max-width: 800px) {
+	.pdct {
+		width: 80% !important;
+		margin: 0 auto !important;
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	.displayed-img {
+		margin-left: 0 !important;
+	}
+	.thumbnails {
+		display: flex !important;
+	}
+	.thumbnails div {
+		width: 6rem !important;
+	}
+	.pdct-details {
+		margin-bottom: 100px;
+	}
+
+	.shirt_size button {
+		margin-right: 1rem !important;
+	}
+}

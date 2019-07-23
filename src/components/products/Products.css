@@ -1,0 +1,17 @@
+.products {
+	width: 70%;
+	margin-bottom: 10rem;
+}
+.products-spinner{
+	display: table
+}
+.spin{
+	margin-top: 15rem;
+}
+@media screen and (max-width: 800px) {
+	.products {
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 5rem;
+	}
+}

@@ -1,0 +1,7 @@
+.cart-img img {
+	width: 4rem !important;
+	height: 4rem !important;
+}
+.remove-item {
+	cursor: pointer;
+}

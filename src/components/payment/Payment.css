@@ -1,0 +1,27 @@
+.payment {
+	border: 2px solid #4e5d6c;
+	width: 60% !important;
+	margin-top: 1rem;
+	margin-left: 1rem !important;
+	box-shadow: 2px 2px 2px 2px #4e5d6c;
+	font-size: 14px;
+}
+.payment-form{
+    width: 60%;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+	.payment {
+        width: 90% !important;
+        margin-bottom: 7rem;
+    }
+    .payment-form{
+        width: 80%;
+        margin-bottom: 5rem;
+    }
+    .payment-form button {
+        width: 15rem;
+        margin-bottom: 1rem;
+    }
+}

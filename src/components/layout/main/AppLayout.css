@@ -1,0 +1,11 @@
+.layout {
+	margin-top: 5rem;
+}
+.main {
+	display: flex;
+}
+@media screen and (max-width: 800px) {
+	.layout {
+		margin-top: 3.5rem;
+	}
+}

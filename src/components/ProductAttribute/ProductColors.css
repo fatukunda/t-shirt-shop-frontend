@@ -1,0 +1,46 @@
+.color-section button {
+	width: 1rem;
+	height: 1rem;
+}
+.color-white {
+	background-color: #fff;
+	border: none;
+}
+.color-black {
+	background-color: black;
+	border: none;
+}
+.color-indigo {
+	background-color: indigo;
+	border: none;
+}
+.color-orange {
+	background-color: orange;
+	border: none;
+}
+.color-blue {
+	background-color: blue;
+	border: none;
+}
+.color-yellow {
+	background-color: yellow;
+	border: none;
+}
+.color-green {
+	background-color: green;
+	border: none;
+}
+.color-purple {
+	background-color: purple;
+	border: none;
+}
+.color-red {
+	background-color: red;
+	border: none;
+}
+.chosen {
+	border: 1px solid grey;
+}
+button:focus {
+	outline: none !important;
+}

@@ -1,0 +1,26 @@
+.finish {
+	border: 2px solid #4e5d6c;
+	width: 60% !important;
+	margin-top: 1rem;
+	margin-left: 1rem !important;
+	box-shadow: 2px 2px 2px 2px #4e5d6c;
+	font-size: 14px;
+}
+
+.main-container {
+	text-align: center;
+}
+.main-container img {
+	width: 10rem;
+}
+
+@media screen and (max-width: 800px) {
+	.finish {
+		width: 90% !important;
+		margin-bottom: 7rem;
+	}
+	.main-container p {
+		padding-right: 0.5rem;
+		padding-left: 0.5rem;
+	}
+}

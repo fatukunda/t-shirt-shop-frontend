@@ -1,0 +1,24 @@
+.side-bar {
+	background-color: #4e5d6c;
+	margin-left: 5rem;
+	margin-top: 0.5rem;
+	margin-bottom: 10rem;
+	width: 17rem;
+}
+.side-bar li {
+	list-style: none;
+	font-size: 13px;
+}
+.side-bar li a {
+	color: #cacfd4;
+	text-decoration: none;
+}
+.side-bar li a:hover {
+	color: #ffff;
+}
+
+@media screen and (max-width: 800px) {
+	.side-bar {
+		display: none;
+	}
+}

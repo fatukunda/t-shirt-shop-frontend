@@ -1,0 +1,21 @@
+.nav-main input {
+	width: 400px !important;
+	margin-left: 50px !important;
+	border-radius: 5px;
+}
+button {
+	border-radius: 5px !important;
+}
+.cart-icon {
+	cursor: pointer !important;
+}
+.logout {
+	cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+	.nav-main input {
+		width: 100% !important;
+		margin-left: 0 !important;
+	}
+}

@@ -1,0 +1,42 @@
+.checkout-page {
+	border: 2px solid #4e5d6c;
+	width: 60% !important;
+	margin-top: 1rem;
+	margin-left: 1rem !important;
+	box-shadow: 2px 2px 2px 2px #4e5d6c;
+	font-size: 14px;
+}
+.delivery-form {
+	width: 60%;
+	margin: 0 auto;
+}
+.delivery-form hr {
+	border-color: #ffa500;
+}
+.next-steps button {
+	width: 10rem !important;
+	margin-top: 1rem;
+}
+.btn-next {
+	float: right;
+}
+
+@media screen and (max-width: 800px) {
+	.checkout-page {
+        width: 90% !important;
+        margin-bottom: 7rem;
+    }
+    .delivery-form {
+        width: 80%;
+    }
+    .next-steps{
+        text-align: center;
+    }
+    .btn-next {
+        float: none;
+        margin-bottom: 2rem;
+    }
+    .next-steps button {
+        width: 100% !important;
+    }
+}

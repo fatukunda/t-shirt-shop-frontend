@@ -1,0 +1,30 @@
+.timeline {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+	grid-gap: 1rem;
+}
+.checkout-pdct {
+	width: 90%;
+	margin: 0 auto;
+}
+.selectedhr {
+	border-color: #ffa500;
+}
+.not-selectedhr {
+	border-color: #fff;
+}
+.selected-item {
+	color: #ffa500;
+}
+.not-selected-item {
+	color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+	.timeline {
+		grid-template-columns: repeat(auto-fit, minmax(3.2rem, 1fr));
+	}
+	.timeline h6 {
+		font-size: 11px;
+	}
+}

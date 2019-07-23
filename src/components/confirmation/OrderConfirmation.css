@@ -1,0 +1,45 @@
+.confirmation {
+	border: 2px solid #4e5d6c;
+	width: 60% !important;
+	margin-top: 1rem;
+	margin-left: 1rem !important;
+	box-shadow: 2px 2px 2px 2px #4e5d6c;
+	font-size: 14px;
+}
+.total-hr {
+	border-color: gray;
+	width: 80%;
+}
+.confirm-row {
+	width: 80% !important;
+	margin: 0 auto !important;
+	border-color: gray !important;
+}
+.grand-total {
+	width: 80% !important;
+	margin: 0 auto !important;
+}
+.more-options {
+	width: 80% !important;
+	margin: 0 auto !important;
+}
+.delivery-address {
+	border: 1px solid gray;
+}
+.more-options button {
+	width: 8rem !important;
+}
+
+@media screen and (max-width: 800px) {
+	.confirmation {
+		width: 90% !important;
+		margin-bottom: 7rem;
+	}
+	.more-options {
+		text-align: center;
+	}
+	.more-options button {
+		margin-bottom: 1rem;
+		width: 100% !important;
+	}
+}

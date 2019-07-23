@@ -1,0 +1,30 @@
+.signup {
+	border: 2px solid #4e5d6c;
+	width: 60% !important;
+	margin-top: 0.5rem;
+	margin-left: 1rem !important;
+	box-shadow: 2px 2px 2px 2px #4e5d6c;
+}
+.signup-form{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.signup hr{
+    border-color: #868e96;
+    width: 50%;
+}
+@media screen and (max-width: 800px) {
+	.signup {
+        width: 80% !important;
+        text-align: center;
+        margin: 0 auto !important;
+        margin-top: 2rem !important;
+        margin-bottom: 10rem !important;
+    }
+    .signup-form{
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+}

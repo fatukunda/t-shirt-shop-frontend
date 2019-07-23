@@ -1,0 +1,30 @@
+.product {
+	width: 15.2rem;
+	height: 18rem;
+	margin-left: 0.5rem;
+	margin-top: 0.5rem;
+	float: left;
+	border: 2px solid gray !important;
+}
+.product img {
+	width: 10rem;
+	margin: 0 auto;
+}
+.product h6 {
+	color: #ffff;
+	font-weight: bold;
+}
+.product p {
+	color: #fff;
+	font-size: 13px;
+}
+
+@media screen and (max-width: 800px) {
+	.product {
+		width: 10rem;
+		height: 20rem;
+	}
+	.product img {
+		width: 7rem;
+	}
+}
